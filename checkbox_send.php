@@ -12,6 +12,7 @@
 <input type="checkbox" name="colors[]" value="白">白
 <input type="checkbox" name="colors[]" value="橙">橙
 </p>
+
 </form>
 </body>
 </html>
