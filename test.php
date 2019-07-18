@@ -1,8 +1,11 @@
 <html>
-    <head>
-        <title>look out world<title>
-    </head>
-    <body>
-        <?php echo "hello world"?>
-    </body>
+  <head>
+    <title>Look Out World</title>
+  </head>
+
+  <body>
+
+    <?php echo "Hello, world!"; ?>
+
+  </body>
 </html>
