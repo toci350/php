@@ -3,8 +3,8 @@ if (isset($_GET['message'])) {
 // load
 $font = 'times';
 $size = 12;
-$im = ImageCreateFromPNG();
-$tsize = imagettfbox($size,0,$font,$_GET['message']);
+$im = ImageCreateFromPNG('button.png');
+$tsize = imagettfbbox($size,0,$font,$_GET['message']);
 
 
 $dx = abs($tsize[2]-$tsize[0]);
