@@ -1,6 +1,6 @@
 <?php
 
-$myDB = new mysqli('localhost', 'root', '', 'library');
+$myDB = new mysqli('localhost', 'root', 'training', 'library');
 //
 if ($myDB->connect_error)
 {
@@ -33,7 +33,7 @@ While ($row = $result->fetch_assoc() ) {
     echo "<tr>";
     echo "<td>";
     echo stripslashes($row["title"])
-    echo "</td><td>"
+    echo "</td><td>";
     echo $row["ISBN"];
     echo "</td>";
     echo "</tr>";
