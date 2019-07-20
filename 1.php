@@ -5,6 +5,6 @@ $a = 1;
 $name = "Elphaba";
 $b = $a / 25.0;
 if ($a == $b) {
- echo "rhyme and reason"
+ echo "rhyme and reason";
 }
 ?>
